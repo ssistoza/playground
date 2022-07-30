@@ -1,0 +1,10 @@
+{
+  "name": "db",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Shane Avery Sistoza <me@ssistoza.dev> (http://ssistoza.github.io/)",
+  "license": "MIT",
+  "devDependencies": {
+    "prisma": "^4.1.1"
+  }
+}
