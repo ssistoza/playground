@@ -9,6 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.9.3",
+    "@mui/material": "^5.9.2",
+    "clsx": "^1.2.1",
     "next": "12.0.8",
     "react": "17.0.2",
     "react-dom": "17.0.2",
@@ -16,12 +21,12 @@
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
+    "@types/node": "^17.0.12",
+    "@types/react": "17.0.47",
     "eslint": "7.32.0",
     "eslint-config-custom": "*",
     "next-transpile-modules": "9.0.0",
     "tsconfig": "*",
-    "@types/node": "^17.0.12",
-    "@types/react": "17.0.47",
     "typescript": "^4.5.3"
   }
 }
