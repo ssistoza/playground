@@ -11,6 +11,6 @@
     "@prisma/client": "^4.1.1"
   },
   "scripts": {
-    "afterinstall": "npx prisma generate"
+    "postinstall": "npx prisma generate"
   }
 }
