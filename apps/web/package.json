@@ -14,9 +14,9 @@
     "@emotion/styled": "^11.9.3",
     "@mui/material": "^5.9.2",
     "clsx": "^1.2.1",
-    "next": "12.0.8",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "next": "^12.0.8",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "ui": "*"
   },
   "devDependencies": {

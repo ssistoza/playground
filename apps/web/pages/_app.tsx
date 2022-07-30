@@ -1,4 +1,3 @@
-import * as React from 'react';
 import Head from 'next/head';
 import type { AppProps } from 'next/app';
 import { ThemeProvider } from '@mui/material/styles';
@@ -23,6 +22,7 @@ export default function MyApp(props: MyAppProps) {
       <ThemeProvider theme={theme}>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
         <CssBaseline />
+        {/* @ts-ignore */}
         <Component {...pageProps} />
       </ThemeProvider>
     </CacheProvider>
